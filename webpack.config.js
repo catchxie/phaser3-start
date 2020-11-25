@@ -11,6 +11,18 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin({
     title: 'phaser3-start',
     // Load a custom template (lodash by default)
-    template: 'index.html'
-  })]
+    template: './index.html'
+  })],
+  module: {rules: [
+    {
+      test: /\.js$/,
+      exclude: /(node_modules|bower_components)/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: ['react', 'es2015', 'stage-0'],
+        }
+      }
+    },
+  ] }
 };
