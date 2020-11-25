@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\98153\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D webpack-cli
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\98153\AppData\Local\Microsoft\WindowsApps;C:\Users\98153\AppData\Local\GitHubDesktop\bin;C:\Users\98153\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\98153\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\98153\AppData\Local\Yarn\Cache\v6\npm-is-stream-1.1.0-12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44-integrity\node_modules\is-stream\index.js' -> 'C:\javacore\phaser3-start\node_modules\default-gateway\node_modules\is-stream\index.js'
+
+npm manifest: 
+  {
+    "name": "phaser3-start",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build":"webpack",
+      "start":"webpack-dev-server --hot --open",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "xiehao",
+    "license": "ISC",
+    "devDependencies": {
+      "html-webpack-plugin": "^4.5.0",
+      "webpack": "^5.6.0",
+      "webpack-dev-server": "^3.11.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
