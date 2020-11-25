@@ -8,7 +8,7 @@ export const config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 10000 }
+            gravity: { y: 100 }
         }
     },
     scene: playGame
